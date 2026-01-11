@@ -13,139 +13,172 @@ export function PrivacyContent() {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto"
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-balance">Política de Privacidade</h1>
-          <p className="text-muted-foreground mb-8">Última atualização: {new Date().toLocaleDateString("pt-BR")}</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-balance">
+            Política de Privacidade
+          </h1>
+
+          <p className="text-muted-foreground mb-8">
+            Última atualização: {new Date().toLocaleDateString("pt-BR")}
+          </p>
 
           <Card className="bg-card">
             <CardContent className="p-8 prose prose-invert max-w-none">
               <section className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">1. Introdução</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  A DigiMig respeita sua privacidade e está comprometida em proteger seus dados pessoais. Esta Política
-                  de Privacidade explica como coletamos, usamos, armazenamos e protegemos suas informações quando você
-                  utiliza nossos serviços ou visita nosso website.
+                  A DigiMig respeita sua privacidade e está comprometida em
+                  proteger os dados pessoais tratados por meio de seus sites,
+                  plataformas digitais, aplicações e serviços. Esta Política
+                  descreve como coletamos, utilizamos, armazenamos e protegemos
+                  essas informações.
                 </p>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">2. Coleta de Dados</h2>
-                <p className="text-muted-foreground leading-relaxed mb-4">Coletamos as seguintes informações:</p>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  Podemos coletar os seguintes dados pessoais:
+                </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
                   <li>Dados de identificação: nome, email, telefone</li>
-                  <li>Informações empresariais: nome da empresa, cargo, setor de atuação</li>
-                  <li>Dados de navegação: endereço IP, tipo de navegador, páginas visitadas</li>
-                  <li>Informações fornecidas em formulários de contato e orçamento</li>
-                  <li>Dados necessários para execução de projetos contratados</li>
+                  <li>Informações profissionais ou empresariais</li>
+                  <li>Dados de navegação: IP, navegador, páginas acessadas</li>
+                  <li>Informações fornecidas em formulários</li>
+                  <li>
+                    Dados necessários para execução de serviços ou uso das
+                    plataformas
+                  </li>
                 </ul>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">3. Uso das Informações</h2>
-                <p className="text-muted-foreground leading-relaxed mb-4">Utilizamos seus dados para:</p>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  Os dados coletados poderão ser utilizados para:
+                </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
-                  <li>Responder solicitações de contato e orçamentos</li>
-                  <li>Prestar os serviços contratados</li>
-                  <li>Enviar comunicações sobre projetos em andamento</li>
-                  <li>Melhorar nossos serviços e experiência do usuário</li>
-                  <li>Cumprir obrigações legais e contratuais</li>
-                  <li>Enviar newsletters e materiais informativos (mediante consentimento)</li>
+                  <li>Operar e disponibilizar nossos serviços e plataformas</li>
+                  <li>Responder solicitações e contatos</li>
+                  <li>Executar obrigações contratuais</li>
+                  <li>Enviar comunicações operacionais e informativas</li>
+                  <li>Melhorar funcionalidades e experiência do usuário</li>
+                  <li>Cumprir obrigações legais e regulatórias</li>
                 </ul>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">4. Cookies</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Nosso website utiliza cookies para melhorar a experiência de navegação. Cookies são pequenos arquivos
-                  de texto armazenados em seu dispositivo. Utilizamos cookies para:
+                  Utilizamos cookies e tecnologias semelhantes para melhorar a
+                  navegação, analisar o uso do site e personalizar conteúdos.
                 </p>
-                <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
-                  <li>Manter suas preferências e configurações</li>
-                  <li>Analisar o tráfego e comportamento no site</li>
-                  <li>Personalizar conteúdo e anúncios</li>
-                </ul>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Você pode configurar seu navegador para recusar cookies, mas isso pode afetar algumas funcionalidades
-                  do site.
+                  O usuário pode configurar seu navegador para bloquear cookies,
+                  ciente de que algumas funcionalidades podem ser afetadas.
                 </p>
               </section>
 
               <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">5. Compartilhamento de Dados</h2>
+                <h2 className="text-2xl font-bold mb-4">
+                  5. Compartilhamento de Dados
+                </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros para fins de
-                  marketing. Podemos compartilhar dados com:
+                  A DigiMig não comercializa dados pessoais. O compartilhamento
+                  poderá ocorrer apenas quando necessário, com:
                 </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
-                  <li>Prestadores de serviços essenciais (hospedagem, pagamentos, analytics)</li>
-                  <li>Autoridades legais quando exigido por lei</li>
-                  <li>Parceiros técnicos necessários para execução de projetos (com sua autorização)</li>
+                  <li>Provedores de infraestrutura e tecnologia</li>
+                  <li>Serviços de pagamento e autenticação</li>
+                  <li>Ferramentas de análise e monitoramento</li>
+                  <li>Autoridades legais, quando exigido por lei</li>
                 </ul>
-                <p className="text-muted-foreground leading-relaxed mb-4">
-                  Todos os terceiros com acesso aos seus dados são obrigados a manter a confidencialidade e segurança
-                  das informações.
-                </p>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">6. Segurança</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Implementamos medidas de segurança técnicas e organizacionais para proteger seus dados contra acesso
-                  não autorizado, alteração, divulgação ou destruição. Isso inclui:
+                  Adotamos medidas técnicas e organizacionais para proteger os
+                  dados pessoais contra acessos não autorizados, vazamentos,
+                  perdas ou alterações indevidas.
                 </p>
-                <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
-                  <li>Criptografia de dados em trânsito (SSL/TLS)</li>
-                  <li>Controle de acesso restrito a informações sensíveis</li>
-                  <li>Backups regulares e seguros</li>
-                  <li>Monitoramento contínuo de segurança</li>
-                </ul>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">7. Retenção de Dados</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Mantemos seus dados pessoais apenas pelo tempo necessário para cumprir as finalidades descritas nesta
-                  política, exceto quando um período de retenção mais longo for exigido ou permitido por lei. Dados
-                  relacionados a projetos finalizados são mantidos conforme obrigações contratuais e legais.
+                  Os dados pessoais são mantidos apenas pelo tempo necessário
+                  para cumprir as finalidades para as quais foram coletados,
+                  respeitando prazos legais e contratuais.
                 </p>
               </section>
 
               <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">8. Seus Direitos</h2>
+                <h2 className="text-2xl font-bold mb-4">8. Direitos do Titular</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  De acordo com a Lei Geral de Proteção de Dados (LGPD), você tem direito a:
+                  Nos termos da LGPD, o titular dos dados pode exercer seus
+                  direitos, incluindo acesso, correção, exclusão, portabilidade
+                  e revogação do consentimento.
                 </p>
-                <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
-                  <li>Acessar seus dados pessoais</li>
-                  <li>Corrigir dados incompletos, inexatos ou desatualizados</li>
-                  <li>Solicitar a exclusão de dados desnecessários ou tratados em desconformidade</li>
-                  <li>Revogar consentimento a qualquer momento</li>
-                  <li>Solicitar portabilidade de dados</li>
-                  <li>Opor-se ao tratamento de dados</li>
-                </ul>
+              </section>
+
+              {/* 🔔 COMUNICAÇÕES OPERACIONAIS */}
+              <section className="mb-8">
+                <h2 className="text-2xl font-bold mb-4">
+                  9. Comunicações Digitais e Mensagens Automatizadas
+                </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Para exercer esses direitos, entre em contato através do email contato@digimig.com.br.
+                  As plataformas, sistemas e serviços desenvolvidos ou operados
+                  pela DigiMig podem realizar comunicações com usuários por
+                  meios digitais, incluindo WhatsApp, email, SMS e notificações
+                  internas.
+                </p>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  Essas comunicações possuem caráter informativo, operacional ou
+                  transacional, como confirmações, lembretes, avisos,
+                  atualizações de status ou solicitações de validação.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  O envio ocorre com base no consentimento do titular ou quando
+                  necessário para a execução do serviço contratado, sempre em
+                  conformidade com a LGPD, sendo vedado o uso para spam ou
+                  marketing não autorizado.
+                </p>
+              </section>
+
+              {/* 📢 MARKETING (CONSENTIMENTO OPCIONAL) */}
+              <section className="mb-8">
+                <h2 className="text-2xl font-bold mb-4">
+                  9.1 Comunicações de Marketing e Promoções
+                </h2>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  O envio de comunicações com finalidade promocional, comercial
+                  ou de marketing, como ofertas, descontos, campanhas e
+                  divulgações de serviços, ocorrerá somente mediante
+                  consentimento específico e opcional do titular dos dados.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  O titular poderá revogar esse consentimento a qualquer momento,
+                  por meio dos canais de comunicação disponibilizados, sem
+                  prejuízo do uso dos serviços contratados.
                 </p>
               </section>
 
               <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">9. Alterações nesta Política</h2>
+                <h2 className="text-2xl font-bold mb-4">
+                  10. Alterações nesta Política
+                </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Podemos atualizar esta Política de Privacidade periodicamente para refletir mudanças em nossas
-                  práticas ou por outros motivos operacionais, legais ou regulatórios. A versão mais recente estará
-                  sempre disponível em nosso website com a data da última atualização.
+                  Esta Política pode ser atualizada periodicamente. A versão
+                  vigente estará sempre disponível em nossos canais oficiais.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-bold mb-4">10. Contato</h2>
+                <h2 className="text-2xl font-bold mb-4">11. Contato</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Para questões sobre esta Política de Privacidade ou sobre o tratamento de seus dados pessoais, entre
-                  em contato conosco:
+                  Para dúvidas relacionadas a esta Política de Privacidade,
+                  entre em contato pelo email contato@digimig.com.br.
                 </p>
-                <ul className="list-none text-muted-foreground space-y-1 mt-4">
-                  <li>Email: contato@digimig.com.br</li>
-                  <li>Website: www.digimig.com.br</li>
-                </ul>
               </section>
             </CardContent>
           </Card>

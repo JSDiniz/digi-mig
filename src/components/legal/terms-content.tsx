@@ -13,115 +13,177 @@ export function TermsContent() {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto"
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-balance">Termos de Serviço</h1>
-          <p className="text-muted-foreground mb-8">Última atualização: {new Date().toLocaleDateString("pt-BR")}</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-balance">
+            Termos de Serviço
+          </h1>
+
+          <p className="text-muted-foreground mb-8">
+            Última atualização: {new Date().toLocaleDateString("pt-BR")}
+          </p>
 
           <Card className="bg-card">
             <CardContent className="p-8 prose prose-invert max-w-none">
               <section className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">1. Introdução</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Bem-vindo à DigiMig. Estes Termos de Serviço regem o uso de nossos serviços de desenvolvimento web,
-                  landing pages, automação de processos e aplicativos web/mobile. Ao contratar nossos serviços, você
-                  concorda com estes termos.
+                  Bem-vindo à DigiMig. Estes Termos de Serviço regem o uso de
+                  nossos serviços, plataformas digitais e soluções tecnológicas.
+                  Ao acessar, contratar ou utilizar qualquer serviço da
+                  DigiMig, você concorda integralmente com estes termos.
                 </p>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">2. Serviços Oferecidos</h2>
-                <p className="text-muted-foreground leading-relaxed mb-4">A DigiMig oferece os seguintes serviços:</p>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  A DigiMig oferece, entre outros, os seguintes serviços:
+                </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
-                  <li>Desenvolvimento de websites responsivos e modernos</li>
-                  <li>Criação de landing pages otimizadas para conversão</li>
-                  <li>Automação de processos empresariais</li>
+                  <li>Desenvolvimento de websites e landing pages</li>
                   <li>Desenvolvimento de aplicativos web e mobile</li>
+                  <li>Criação e operação de plataformas SaaS</li>
+                  <li>Automação de processos e fluxos de comunicação</li>
+                  <li>Integrações com APIs e serviços de terceiros</li>
                   <li>Consultoria em tecnologia e soluções digitais</li>
                 </ul>
               </section>
 
               <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">3. Responsabilidades do Cliente</h2>
-                <p className="text-muted-foreground leading-relaxed mb-4">O cliente é responsável por:</p>
+                <h2 className="text-2xl font-bold mb-4">
+                  3. Responsabilidades do Cliente
+                </h2>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  O cliente ou usuário compromete-se a:
+                </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
-                  <li>
-                    Fornecer todas as informações, conteúdos e materiais necessários para o desenvolvimento do projeto
-                  </li>
-                  <li>Responder às solicitações de feedback e aprovações dentro dos prazos acordados</li>
-                  <li>Garantir que possui os direitos necessários sobre todo o conteúdo fornecido</li>
-                  <li>Realizar os pagamentos conforme acordado no contrato</li>
+                  <li>Fornecer informações corretas e atualizadas</li>
+                  <li>Utilizar as plataformas de forma lícita e ética</li>
+                  <li>Obter consentimento de seus usuários finais quando aplicável</li>
+                  <li>Não utilizar os serviços para fins ilegais ou abusivos</li>
                 </ul>
               </section>
 
               <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">4. Propriedade Intelectual</h2>
+                <h2 className="text-2xl font-bold mb-4">
+                  4. Propriedade Intelectual
+                </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Após o pagamento integral dos serviços, o cliente terá propriedade completa do produto final
-                  desenvolvido. A DigiMig mantém o direito de usar o projeto em seu portfólio, salvo acordo em
-                  contrário. Códigos, frameworks e bibliotecas de terceiros permanecem sob suas respectivas licenças
-                  originais.
+                  Todo o conteúdo, código-fonte, interfaces e soluções
+                  desenvolvidas permanecem protegidos por direitos autorais.
+                  A titularidade será definida conforme contrato ou proposta
+                  comercial específica.
                 </p>
               </section>
 
               <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">5. Prazos e Entregas</h2>
+                <h2 className="text-2xl font-bold mb-4">
+                  5. Prazos, Disponibilidade e Manutenção
+                </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Os prazos de entrega são estimativas baseadas no escopo acordado. Atrasos causados por falta de
-                  informações do cliente, mudanças no escopo ou fatores fora do controle da DigiMig podem resultar em
-                  ajustes nos prazos. Comunicaremos qualquer alteração de prazo com antecedência.
+                  A DigiMig envida esforços para manter seus serviços
+                  disponíveis, mas não garante operação ininterrupta. Poderão
+                  ocorrer manutenções programadas ou indisponibilidades
+                  temporárias.
                 </p>
               </section>
 
               <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">6. Pagamentos</h2>
+                <h2 className="text-2xl font-bold mb-4">
+                  6. Pagamentos
+                </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Os valores e condições de pagamento serão definidos em proposta comercial específica. Geralmente,
-                  solicitamos um adiantamento no início do projeto e o saldo final antes da entrega. Projetos não serão
-                  entregues até a quitação total dos valores acordados.
+                  Valores, planos, formas de pagamento e condições serão
+                  definidos em proposta comercial, contrato ou página específica
+                  do serviço contratado.
                 </p>
               </section>
 
               <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">7. Garantia e Suporte</h2>
+                <h2 className="text-2xl font-bold mb-4">
+                  7. Limitação de Responsabilidade
+                </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Oferecemos garantia contra bugs e erros de programação por um período definido após a entrega
-                  (geralmente 30 dias). Alterações de escopo, novas funcionalidades ou melhorias solicitadas após a
-                  entrega serão orçadas separadamente. Serviços de manutenção contínua podem ser contratados à parte.
+                  A DigiMig não se responsabiliza por danos indiretos, perdas de
+                  dados, lucros cessantes ou falhas decorrentes do uso
+                  inadequado das plataformas ou serviços disponibilizados.
+                </p>
+              </section>
+
+              {/* 🔐 COMUNICAÇÃO E CONSENTIMENTOS */}
+              <section className="mb-8">
+                <h2 className="text-2xl font-bold mb-4">
+                  8. Comunicação, Notificações e Mensagens Automatizadas
+                </h2>
+
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  As plataformas desenvolvidas e operadas pela DigiMig podem
+                  realizar o envio de comunicações automáticas ou manuais por
+                  meios digitais, como WhatsApp, email, SMS ou notificações
+                  internas.
+                </p>
+
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  Essas comunicações possuem caráter informativo, operacional
+                  ou de aviso, incluindo, mas não se limitando a:
+                </p>
+
+                <ul className="list-disc list-inside text-muted-foreground space-y-2 mb-4">
+                  <li>Confirmações de ações realizadas na plataforma</li>
+                  <li>Lembretes, atualizações ou alertas importantes</li>
+                  <li>Avisos sobre status de serviços ou agendamentos</li>
+                  <li>Solicitações de confirmação ou validação de informações</li>
+                </ul>
+
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  O envio dessas mensagens ocorre como parte necessária da
+                  execução do serviço contratado ou mediante consentimento
+                  do usuário final, não sendo utilizadas para fins de spam.
+                </p>
+
+                {/* 🔑 DIFERENCIAÇÃO DE MARKETING */}
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  O envio de comunicações de caráter promocional, publicitário
+                  ou de marketing, como ofertas, campanhas, descontos ou
+                  divulgações de serviços, ocorre exclusivamente mediante
+                  consentimento opcional, livre e informado do usuário final.
+                </p>
+
+                <p className="text-muted-foreground leading-relaxed">
+                  A recusa ou revogação do consentimento para comunicações
+                  promocionais não impede o recebimento de mensagens
+                  operacionais essenciais para a execução dos serviços.
                 </p>
               </section>
 
               <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">8. Limitação de Responsabilidade</h2>
+                <h2 className="text-2xl font-bold mb-4">
+                  9. Proteção de Dados
+                </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  A DigiMig não será responsável por danos indiretos, lucros cessantes ou perdas de dados. Nossa
-                  responsabilidade máxima limita-se ao valor total pago pelo cliente pelo serviço específico. Não nos
-                  responsabilizamos por problemas causados por ações de terceiros, modificações não autorizadas ou uso
-                  inadequado do produto entregue.
+                  A DigiMig realiza o tratamento de dados pessoais conforme a
+                  legislação vigente, em especial a Lei Geral de Proteção de
+                  Dados (LGPD), atuando como controladora ou operadora,
+                  conforme o contexto do serviço prestado.
                 </p>
               </section>
 
               <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">9. Cancelamento e Reembolso</h2>
+                <h2 className="text-2xl font-bold mb-4">
+                  10. Alterações nos Termos
+                </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  O cliente pode solicitar o cancelamento do projeto a qualquer momento. Neste caso, será cobrado
-                  proporcionalmente ao trabalho já realizado, incluindo custos de terceiros já incorridos. Adiantamentos
-                  não são reembolsáveis após o início dos trabalhos.
-                </p>
-              </section>
-
-              <section className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">10. Alterações nos Termos</h2>
-                <p className="text-muted-foreground leading-relaxed mb-4">
-                  A DigiMig reserva-se o direito de modificar estes termos a qualquer momento. Mudanças substanciais
-                  serão comunicadas aos clientes com antecedência razoável. O uso continuado de nossos serviços após
-                  alterações constitui aceitação dos novos termos.
+                  Estes Termos de Serviço podem ser alterados a qualquer momento.
+                  O uso contínuo dos serviços após alterações representa a
+                  aceitação da versão atualizada.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-bold mb-4">11. Contato</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Para questões relacionadas a estes Termos de Serviço, entre em contato conosco através do email
-                  contato@digimig.com.br ou pela página de contato em nosso website.
+                  Para dúvidas ou solicitações relacionadas a estes Termos,
+                  entre em contato pelo email contato@digimig.com.br ou através
+                  de nossos canais oficiais.
                 </p>
               </section>
             </CardContent>
