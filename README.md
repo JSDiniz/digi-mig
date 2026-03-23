@@ -148,4 +148,6 @@ Para mais informações, visite [https://digimig.com.br](https://digimig.com.br)
 
 ---
 
-Desenvolvido com ❤️ pela equipe DigiMig
+## 👤 Autor
+
+Junielson S. Diniz
